@@ -7,12 +7,15 @@
     "nginx",
     "cloudflare"
   ],
-  "type":"module",
+  "type": "module",
   "bin": {
     "dwadd": "./worker.js add",
     "dwdel": "./worker.js del",
     "dwlist": "./worker.js list"
   },
   "author": "Ikysu",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
 }

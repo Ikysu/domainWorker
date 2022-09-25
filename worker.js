@@ -3,6 +3,18 @@ import fs from 'fs';
 import { exec } from 'child_process';
 
 const sets = JSON.parse(fs.readFileSync("settings.json"))
+/*
+{
+    "cf":{
+        "email":"test@example.com",
+        "token":"Global API Key",
+        "endpoint":"https://api.cloudflare.com/client/v4/"
+    },
+    "nginx":{
+        "configsPath":"/etc/nginx/ikiDomainWorker/"
+    }
+}
+*/
 
 const cfheaders = {
     "Content-Type":"application/json",
