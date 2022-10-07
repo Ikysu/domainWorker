@@ -1,0 +1,2 @@
+node ./worker init
+mkdir /etc/nginx/ikiDomainWorker/

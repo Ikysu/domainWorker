@@ -1,0 +1,13 @@
+{
+    "cf":{
+        "email":"test@example.com",
+        "token":"Global API Key",
+        "endpoint":"https://api.cloudflare.com/client/v4/",
+        "zone_ids":{
+            "example.com":"ZONE_ID"
+        }
+    },
+    "nginx":{
+        "configsPath":"/etc/nginx/ikiDomainWorker/"
+    }
+}
